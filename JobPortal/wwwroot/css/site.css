@@ -16,3 +16,6 @@ html {
 body {
   margin-bottom: 60px;
 }
+#lightSwitch {
+    transform: scale(1.8);
+}

@@ -1,8 +1,4 @@
-﻿using JobPortal.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace JobPortal.Data
+﻿namespace JobPortal.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

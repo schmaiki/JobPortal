@@ -17,18 +17,18 @@
             <input hidden asp-for="Id" />
 
             <div class="row form-group">
-                <div class="col ">
+                <div class="col pt-1">
                     <label>Jobbezeichnung:</label>
                     <input class="form-control" asp-for="JobTitle" type="text" placeholder="Bitte trage eine Jobbezeichnung ein" />
                 </div>
-                <div class="col">
+                <div class="col pt-1">
                     <label>Arbeitsort:</label>
                     <input class="form-control" asp-for="JobLocation" type="text" placeholder="Bitte trage einen Ort ein" />
                 </div>
             </div>
 
             <div class="row form-group">
-                <div class="col">
+                <div class="col pt-2">
                     <label>Jobbeschreibung:</label>
                     <textarea rows="6" class="form-control" asp-for="Description" placeholder="Bitte trage eine ausführliche Beschreibung ein"></textarea>
                 </div>
@@ -36,7 +36,7 @@
 
 
             <div class="row form-group">
-                <div class="col-6">
+                <div class="col-6 pt-2">
                     <label>Jahresgehalt:</label>
                     <input class="form-control" asp-for="Salary" type="number" placeholder="Wieviel Jahresgehalt zahlt ihr?" />
                 </div>
@@ -54,29 +54,29 @@
             <hr />
 
             <div class="row form-group">
-                <div class="col">
+                <div class="col pt-2">
                     <label>Firmenname:</label>
                     <input class="form-control" asp-for="CompanyName" type="text" placeholder="Wie heißt deine Firma?" />
                 </div>
-                <div class="col">
+                <div class="col pt-2">
                     <label>Webseite:</label>
                     <input class="form-control" asp-for="ContactWebsite" type="url" placeholder="https://www.firmenname.de" />
                 </div>
             </div>
 
             <div class="row form-group">
-                <div class="col">
+                <div class="col pt-2">
                     <label>Telefon:</label>
                     <input class="form-control" asp-for="ContactPhone" type="tel" placeholder="Telefonnummer" />
                 </div>
-                <div class="col">
+                <div class="col pt-2">
                     <label>E-Mail Adresse:</label>
                     <input class="form-control" asp-for="ContactMail" type="email" placeholder="bewerbung@firmenname.de" />
                 </div>
             </div>
 
             <div class="row form-group">  
-                <div class="col">
+                <div class="col pt-3">
                     <label>Firmenlogo</label>
                     <input class="form-control-file" name="file" type="file" />
                 </div>
